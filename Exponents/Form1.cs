@@ -8,8 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 
 /**************************************
- * Name:
- * Date:
+ * Name:Matthew D. Huff
+ * Date: 8/3/2025
  * Description: A program using user-created method
  *              for the math function Square and Cube
  * Assistance:
@@ -24,7 +24,7 @@ namespace Exponents
             InitializeComponent();
         }
 
-        private void xGoButton_Click(object sender, EventArgs e)
+        private void GoButton_Click(object sender, EventArgs e)
         {
             // STORAGE
 
