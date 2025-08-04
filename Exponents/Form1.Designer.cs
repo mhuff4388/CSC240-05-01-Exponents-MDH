@@ -55,7 +55,7 @@
             // xOutputLabel
             // 
             this.xOutputLabel.AutoSize = true;
-            this.xOutputLabel.Location = new System.Drawing.Point(102, 181);
+            this.xOutputLabel.Location = new System.Drawing.Point(99, 181);
             this.xOutputLabel.Name = "xOutputLabel";
             this.xOutputLabel.Size = new System.Drawing.Size(0, 13);
             this.xOutputLabel.TabIndex = 4;
@@ -63,28 +63,28 @@
             // 
             // btnGo
             // 
-            this.btnGo.Location = new System.Drawing.Point(105, 96);
+            this.btnGo.Location = new System.Drawing.Point(102, 96);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(75, 67);
             this.btnGo.TabIndex = 6;
             this.btnGo.Text = "Go!";
             this.btnGo.UseVisualStyleBackColor = true;
-            this.btnGo.Click += new System.EventHandler(this.GoButton_Click);
+            this.btnGo.Click += new System.EventHandler(this.BtnGo_Click);
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(105, 212);
+            this.btnReset.Location = new System.Drawing.Point(102, 212);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 7;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.xResetButton_Click);
+            this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
-            this.lblOutput.Location = new System.Drawing.Point(123, 181);
+            this.lblOutput.Location = new System.Drawing.Point(120, 181);
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(35, 13);
             this.lblOutput.TabIndex = 8;

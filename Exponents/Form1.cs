@@ -24,7 +24,7 @@ namespace Exponents
             InitializeComponent();
         }
 
-        private void GoButton_Click(object sender, EventArgs e)
+        private void BtnGo_Click(object sender, EventArgs e)
         {
             // STORAGE
             int input;
@@ -41,6 +41,8 @@ namespace Exponents
             // OUTPUT
             lblOutput.Text = $"Squared: {squared}\nCubed: {cubed}"; 
             lblOutput.Visible = true ;
+
+            btnGo.Enabled = false ;  
         }
 
         public int Square(int num)
@@ -53,11 +55,12 @@ namespace Exponents
             return num * num * num;
         }
 
-        private void xResetButton_Click(object sender, EventArgs e)
+        private void BtnReset_Click(object sender, EventArgs e)
         {
-            // the input and output text should be emptied
-            // turn the output to invisible
-            // turn the Go button back on
+            txtInput.Text = "" ;
+            lblOutput.Text = "" ;
+            lblOutput.Visible=false ;
+            btnGo.Enabled=true ;
         }
 
     }
