@@ -27,21 +27,20 @@ namespace Exponents
         private void GoButton_Click(object sender, EventArgs e)
         {
             // STORAGE
+            int input;
+            int squared;
+            int cubed;
 
             // INPUT
+            input = int.Parse(txtInput.Text);
 
             // PROCESS
-            /* calculate the square of the number and add it to the output - 
-             * do this with a method call that allows you to pass the number
-             * and then receive the answer */
-
-            /* calculate the cube of the number and add it to the output - 
-             * do this by creating a methd as in the squaring example above */
+            squared = Square(input);
+            cubed = Cube(input);    
 
             // OUTPUT
-            // set the output to visible
-
-            // turn the Go button off
+            lblOutput.Text = $"Squared: {squared}\nCubed: {cubed}"; 
+            lblOutput.Visible = true ;
         }
 
         public int Square(int num)

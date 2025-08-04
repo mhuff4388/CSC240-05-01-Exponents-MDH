@@ -33,6 +33,7 @@
             this.xOutputLabel = new System.Windows.Forms.Label();
             this.btnGo = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtInput
@@ -80,11 +81,22 @@
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.xResetButton_Click);
             // 
+            // lblOutput
+            // 
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Location = new System.Drawing.Point(123, 181);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(35, 13);
+            this.lblOutput.TabIndex = 8;
+            this.lblOutput.Text = "label1";
+            this.lblOutput.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnGo);
             this.Controls.Add(this.xOutputLabel);
@@ -104,6 +116,7 @@
         private System.Windows.Forms.Label xOutputLabel;
         private System.Windows.Forms.Button btnGo;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label lblOutput;
     }
 }
 
